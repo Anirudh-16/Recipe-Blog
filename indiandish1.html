@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>DOSA WITH COCONUT CHUTNEY</title>
+  </head>
+  <body>
+
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+      <a href="main.html" class="navbar-brand vc">CLASSY CUISINE</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navlinks" aria-label="toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar" id="navlinks">
+          <ul class="navbar-nav justify-content-end">
+          </ul>
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item nava">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item nava">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item nava">
+              <a class="nav-link" href="syr.html">SHARE YOUR RECIPE</a>
+            </li>
+      </div>
+  </nav>
+  <div class="dish1title">
+    DOSA WITH COCONUT CHUTNEY
+  </div>
+  <div class="container images">
+    <img class="rbgimg" src="imgs/666603.jpg">
+  <section class="idish1">
+    <img src="imgs/Indian/dosa.jpg">
+    <div class="iing1">
+        <div class="dish1ingt">INGREDIENTS</div><br><br><br><br>
+        <div class="dish1ings">
+            *  Dosa Batter<br>
+                    <div class="dish1ingc">
+                        1 cup urad dal (no skin)<br>
+                        3 cups rice flour <br>
+                        Pinch sugar <br>
+                        Salt<br><br><br>
+                    </div>
+                    *  Coconut Chutney<br>
+                    <div class="dish1ingc">
+                        1/2 cup frozen shredded coconut<br>
+                        1/4 cup roasted chana dal <br>
+                        1/4 cup dry coconut powder <br>
+                        5 Thai chiles <br>
+                        1 small whole tamarind <br>
+                        1/2 bunch fresh cilantro <br>
+                        Salt <br>
+                        Oil, for cooking<br>
+                        Ghee, for topping<br>
+                    </div>
+
+           
+        </div><br><br><br><br> 
+        <div class="IDish1content dish1ingc">
+
+          <div class="dish1ingt2">PROCEDURE<br> <br> <br></div>
+          1.	For the dosa batter: Soak urad dal in water for 8 to 12 hours. Wash the soaked lentils and blend in a high-powered blender with 3/4 cup water to a smooth paste. Add rice flour, sugar, salt and 1 1/2 cups water to blend to a smooth paste consistency. Let batter ferment at room temperature 8 to 10 hours.<br><br>
+          2.	For the coconut chutney: Add coconut, chana dal, coconut powder, chiles, tamarind seeds, cilantro and salt to a high-powdered blender with water and blend to a smooth paste consistency. Finish by adding a tablespoon of tempering to the coconut chutney.<br><br>
+          3.	Heat a cast-iron or nonstick pan over medium heat and season with oil. Once it is hot, take one ladle of dosa batter and spread it from the middle to outer edge of the pan, making sure it is thin. Cook until cooked completely, about 1 minute. Put ghee on top of dosa. Serve with potato masala and coconut chutney. Repeat with remaining batter.
+          
+          
+      </div><br><br><br> </div>
+    </section>
+  </div>
+  <div class="dishreview">
+    <form action="indDish1review.php" method="post">
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1"><u>DISH REVIEW</u></label>
+        <textarea name="irs1" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your review here..."></textarea>
+      </div>
+      <button type="submit" name="reviewsubmit1" class="btn btn-primary">Submit</button><br><br><br><br>
+    </form>
+  </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  
+    <script>
+      $(function () {
+          $(document).scroll(function () {
+              var $nav = $("#mainNavbar");
+              $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          });
+      });
+    </script>
+  
+  
+  </body>
+  </html>      
